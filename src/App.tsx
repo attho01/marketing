@@ -636,18 +636,18 @@ export default function App() {
               {/* Top Badge */}
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#162C1E]/60 border border-[#3E6F4B] text-xs text-[#D5EAD9] font-bold shadow-sm backdrop-blur-sm">
                 <Sparkles className="h-3.5 w-3.5 text-[#FCD34D] animate-pulse" />
-                <span>10년 차 마케팅 디렉터의 전략 지능 그대로</span>
+                <span>Strategy Intelligence of a Senior Marketing Director</span>
               </div>
 
               {/* Display Headline */}
               <h1 className="text-3xl md:text-5xl lg:text-[3.25rem] font-extrabold tracking-tight text-white leading-[1.15]">
-                간단한 제품 설명만으로 완성하는<br />
-                <span className="text-[#FCD34D]">3-포지셔닝 마케팅 기획서</span>
+                Generate Professional Campaigns with<br />
+                <span className="text-[#FCD34D]">3-Positioning Brand Blueprint</span>
               </h1>
 
               {/* Supporting Paragraph */}
               <p className="text-sm md:text-base text-[#D0E5D5] font-medium max-w-2xl leading-relaxed">
-                아이디어 회의로 밤을 지새우지 마세요. 브랜드 디렉터 AI가 감성 소구, 기능 소구, 트렌드 소구의 3가지 컨셉 실행 시나리오와 맞춤 예산 채널 믹스를 실시간으로 자동 설계해 드립니다.
+                No more endless brainstorming nights. Let our Brand Director AI instantly design emotional, functional, and trend-driven campaign scenarios with customized budget channel mix recommendations.
               </p>
 
               {/* Call to Action Controls */}
@@ -656,7 +656,7 @@ export default function App() {
                   onClick={handleStartClick}
                   className="bg-[#EFF5EE] hover:bg-white text-[#1C3524] text-xs md:text-sm font-extrabold px-8 py-4 rounded-full transition-all duration-200 shadow-xl flex items-center gap-2 hover:scale-[1.03] cursor-pointer active:scale-95 group"
                 >
-                  무료로 기획안 초안 받기
+                  Generate Free Campaign Blueprint
                   <ArrowRight className="h-4.5 w-4.5 transition-transform group-hover:translate-x-1 text-[#3E7D52]" />
                 </button>
               </div>
@@ -666,15 +666,15 @@ export default function App() {
             <div className="mt-14 pt-8 border-t border-white/10 grid grid-cols-3 gap-6 max-w-md relative z-10">
               <div>
                 <span className="block text-2xl font-black text-[#FCD34D]">95%</span>
-                <span className="text-[10px] text-[#C4DDD0] font-bold uppercase tracking-wider">기획 리소스 단축</span>
+                <span className="text-[10px] text-[#C4DDD0] font-bold uppercase tracking-wider">Planning Time Saved</span>
               </div>
               <div>
                 <span className="block text-2xl font-black text-white">3 Concepts</span>
-                <span className="text-[10px] text-[#C4DDD0] font-bold uppercase tracking-wider">입체적 포지셔닝</span>
+                <span className="text-[10px] text-[#C4DDD0] font-bold uppercase tracking-wider">Distinct Positionings</span>
               </div>
               <div>
                 <span className="block text-2xl font-black text-white">100%</span>
-                <span className="text-[10px] text-[#C4DDD0] font-bold uppercase tracking-wider">구체적 매체 설계</span>
+                <span className="text-[10px] text-[#C4DDD0] font-bold uppercase tracking-wider">Media Strategy</span>
               </div>
             </div>
           </div>
@@ -684,22 +684,22 @@ export default function App() {
             <div className="flex flex-1 w-full gap-2.5 flex-col sm:flex-row">
               <div className="bg-white px-6 py-3 rounded-full text-[11px] text-[#1E3021] font-bold flex-1 text-center border border-[#D5E3D5] shadow-sm flex items-center justify-center gap-1.5">
                 <div className="w-2 h-2 rounded-full bg-[#3E7D52]" />
-                <span>제품 스펙/설명 분석</span>
+                <span>Analyze Product Features</span>
               </div>
               <div className="bg-white px-6 py-3 rounded-full text-[11px] text-[#1E3021] font-bold flex-1 text-center border border-[#D5E3D5] shadow-sm flex items-center justify-center gap-1.5">
                 <div className="w-2 h-2 rounded-full bg-[#FCD34D]" />
-                <span>정밀 타겟 오디언스 지정</span>
+                <span>Precise Audience Target</span>
               </div>
               <div className="bg-white px-6 py-3 rounded-full text-[11px] text-[#1E3021] font-bold flex-1 text-center border border-[#D5E3D5] shadow-sm flex items-center justify-center gap-1.5">
                 <div className="w-2 h-2 rounded-full bg-[#407450]" />
-                <span>실무 마케팅 예산 확정</span>
+                <span>Budget & Channel Mix</span>
               </div>
             </div>
             <button
               onClick={handleStartClick}
               className="w-full md:w-auto bg-[#3E7D52] hover:bg-[#2D5C3B] text-white text-xs font-bold px-8 py-3.5 rounded-full flex items-center justify-center gap-1.5 shadow-md shrink-0 cursor-pointer transition-colors active:scale-98"
             >
-              기획안 생성하기 (Build)
+              Generate Blueprint (Build)
               <Zap className="h-3.5 w-3.5 text-[#FCD34D] fill-[#FCD34D]" />
             </button>
           </div>
