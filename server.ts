@@ -76,12 +76,12 @@ app.post("/api/verify-key", async (req, res) => {
     });
     // Call a lightweight model check
     await testAi.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-3.5-flash",
       contents: "Hello",
     });
     return res.json({ success: true, message: "Gemini API Key가 정상 승인되었습니다." });
   } catch (err: any) {
-    console.error("API Key verification failed:", err);
+    console.warn("API Key verification failed (expected for invalid key):", err.message || err);
     let rawMsg = err.message || "";
     let errorMsg = "API Key 승인에 실패했습니다. 입력하신 키가 정확한지 확인해 주세요.";
 
