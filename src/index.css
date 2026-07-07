@@ -1,0 +1,128 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  --font-display: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  --font-serif: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  --font-mono: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+}
+
+/* Base Body Styles */
+body {
+  font-family: var(--font-sans);
+}
+
+/* Custom markdown rendering styles for the proposal - High Contrast Professional Light theme */
+.markdown-body {
+  font-family: var(--font-sans);
+  line-height: 1.8;
+  color: #1e3021; /* High readability deep charcoal */
+  font-size: 0.95rem;
+}
+
+.markdown-body h1 {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #1c3524; /* Primary Brand Dark */
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #3e7d52; /* Primary Brand Green border */
+  letter-spacing: -0.025em;
+}
+
+.markdown-body h2 {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1c3524;
+  margin-top: 2rem;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #e5efe4;
+  letter-spacing: -0.02em;
+}
+
+.markdown-body h3 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #2d5c3b; /* Accent green for subtitles */
+  margin-top: 1.6rem;
+  margin-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-left: 4px solid #3e7d52;
+}
+
+.markdown-body p {
+  margin-bottom: 1.2rem;
+  color: #2d4030; /* Highly readable dark body text */
+}
+
+.markdown-body ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.markdown-body ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.markdown-body li {
+  margin-bottom: 0.5rem;
+  color: #2d4030;
+}
+
+.markdown-body li strong {
+  color: #112215;
+}
+
+.markdown-body strong {
+  color: #112215; /* Extra bold text color */
+  font-weight: 700;
+  background-color: #f0f6f1; /* Subtle premium highlight */
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+}
+
+.markdown-body blockquote {
+  border-left: 4px solid #3e7d52;
+  padding: 0.75rem 1.25rem;
+  color: #455d4c;
+  margin: 1.5rem 0;
+  background: #fafdf9;
+  border-radius: 8px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.02);
+}
+
+/* Elegant Table Styling for Budget allocations etc. */
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.markdown-body th {
+  background-color: #f7faf6;
+  color: #1c3524;
+  font-weight: 700;
+  border: 1px solid #d5e2d5;
+  padding: 0.65rem 0.85rem;
+  text-align: left;
+}
+
+.markdown-body td {
+  border: 1px solid #d5e2d5;
+  padding: 0.65rem 0.85rem;
+  color: #2d4030;
+}
+
+.markdown-body tr:nth-child(even) {
+  background-color: #fcfdfe;
+}

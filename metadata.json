@@ -1,0 +1,6 @@
+{
+  "name": "브랜드 캠페인 기획안 생성기",
+  "description": "베테랑 마케팅 디렉터의 맞춤형 포지셔닝 및 예산 최적화 캠페인 기획 서비스",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
